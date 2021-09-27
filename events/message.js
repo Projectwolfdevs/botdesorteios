@@ -11,8 +11,8 @@ module.exports = class {
         if (!message.guild.me.hasPermission("SEND_MESSAGES")) return;
         if (!message.guild.me.hasPermission("EMBED_LINKS")) return;
         
-        // verifica o prefixo
-        const prefixes = ["g?", "G?", `<@${this.client.user.id}>`, `<@!${this.client.user.id}>`];
+        // verifica o prefixo mude o "s?" para "seu prefixo"
+        const prefixes = ["s?", "S?", `<@${this.client.user.id}>`, `<@!${this.client.user.id}>`];
         let prefix = false;
         for (const Prefix of prefixes) {
             if (message.content.startsWith(Prefix)) prefix = Prefix;
