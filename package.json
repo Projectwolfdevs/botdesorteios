@@ -1,0 +1,33 @@
+{
+  "name": "BoDeSorteioBt10k",
+  "version": "1.0.1",
+  "description": "Bot para fazer somente sorteios e escolher um ganhador",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://discord.gg/yUUF9y3X7F"
+  },
+  "keywords": [
+    "giveaway",
+    "discord",
+    "discord-sorteio"
+  ],
+  "author": "10k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://discord.gg/yUUF9y3X7F"
+  },
+  "homepage": "https://discord.gg/yUUF9y3X7F",
+  "dependencies": {
+    "discord-giveaways": "^3.2.3",
+    "discord.js": "^12.0.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "num-parse": "^1.0.1"
+  }
+}
