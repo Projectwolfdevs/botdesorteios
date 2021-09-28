@@ -7,6 +7,11 @@ module.exports = class {
         this.client.user.setActivity(`by 10K`, {
             type: "LISTENING"
         });
-        console.log(`${this.client.user.tag}, Assistindo ${this.client.users.cache.size} usuários e ${this.client.guilds.cache.size} servers.`);
+        console.log(` _______________________ 
+|  ___________________  |
+| | Project Wolf Devs | |
+| |___________________| |
+|_______________________|
+        ${this.client.user.tag}, Assistindo ${this.client.users.cache.size} usuários e ${this.client.guilds.cache.size} servers.`);
     }
 }
