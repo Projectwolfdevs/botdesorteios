@@ -49,4 +49,4 @@ class Eval extends Command {
 module.exports = Eval;
 
 
-//peguei codigo de um bot publico, não mude nada, pode causar erros no seu bot
+//peguei codigo de um bot publico, não mude nada, pode causar erros no seu bot.
